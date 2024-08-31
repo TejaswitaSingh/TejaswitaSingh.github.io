@@ -1,0 +1,831 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    width: 1170px;
+    margin: auto;
+}
+
+.blacktoprow {
+    width: 1170px;
+    height: 40px;
+    background-color: #343130;
+}
+
+.topblackleftcontent {
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+
+.toprowimg1 {
+    width: 22px;
+    height: 23px;
+    margin: 10px 13px 0px 23px;
+    float: left;
+}
+
+.toprowcontent1 {
+    width: 216px;
+    height: 24px;
+    color: white;
+    font-size: 20px;
+    float: left;
+    margin-top: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topblackrightcontent {
+    width: 300px;
+    height: 40px;
+    float: right;
+}
+
+.toprowimg2 {
+    width: 21px;
+    height: 17px;
+    margin: 10px 13px 0px 0px;
+    float: right;
+}
+
+.toprowcontent2 {
+    width: 216px;
+    height: 24px;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbarrow {
+    width: 1170px;
+    height: 140px;
+    background-color: white;
+}
+
+.navbarimg {
+    width: 165px;
+    height: 126px;
+    margin: 10px 0px 0px 50px;
+    float: left;
+}
+
+.navbarcontent {
+    width: 900px;
+    height: 140px;
+    float: right;
+}
+
+.nbitem {
+    float: left;
+    margin: 100px 0px 0px 63px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #343130;
+}
+
+.nbitem:hover {
+    color: #00a8ec;
+    text-decoration: underline;
+}
+
+.greybordercontent {
+    width: 1130px;
+    height: 755px;
+    border: 20px solid #f1f0ef;
+    border-bottom: none;
+    background-color: white;
+}
+
+.gbleftcontent {
+    width: 250px;
+    height: 750px;
+    margin: 2px 0px 0px 10px;
+    float: left;
+
+}
+
+.gbleftitem {
+    width: 242px;
+    height: 40px;
+    background-color: #00a8ec;
+    border: 4px solid white;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.leftitem {
+    margin: 10px 60px;
+}
+
+.leftnewstab {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #908c89;
+    border-top: none;
+    margin: 0px 15px 0px 4px;
+}
+
+.newshead {
+    width: 242px;
+    height: 45px;
+    background-color: #ef9c00;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 10px 15px 0px 4px;
+}
+
+.newslist {
+    width: 250px;
+    height: 250px;
+
+}
+
+.newslistitems {
+    padding-top: 10px;
+    margin-left: 10px;
+    color: #343130;
+    height: 40px;
+    list-style-type: none;
+
+}
+
+.gbrightcontent {
+    width: 850px;
+    height: 755px;
+    float: right;
+}
+
+.imagebanner {
+    width: 830px;
+    height: 455px;
+    background-color: #f1f0ef;
+    padding-bottom: 15px;
+    float: left;
+    margin-right: 20px;
+}
+
+.coursetab {
+    width: 170px;
+    height: 50px;
+    background-color: #f1f0ef;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    color: #00a8ec;
+}
+
+.coursetypes {
+    width: 830px;
+    height: 245px;
+    margin-top: 40px;
+}
+
+.ctcols {
+    width: 391px;
+    height: 245px;
+    float: left;
+}
+
+.coursespng {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #e6611c;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.coursesline {
+    width: 320px;
+    height: 22px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 10PX;
+    color: #e6611c;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: left;
+}
+
+.courserows {
+    width: 414px;
+    height: 34px;
+}
+
+.howwork {
+    width: 100%;
+    height: 34px;
+    background-color: #f1f0ef;
+    color: #00a8ec;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px 15px;
+    margin: 0px auto;
+}
+
+.worktypes {
+    width: 1110;
+    height: 220px;
+    background-color: white;
+
+    border-left: 30px solid #f1f0ef;
+    border-right: 30px solid #f1f0ef;
+    border-bottom: 15px solid #f1f0ef;
+    ;
+}
+
+.workcols {
+    width: 270px;
+    height: 150px;
+    background-color: rgba(188, 72, 109, 0.8);
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 70px;
+    background-image: url('./images/how/HOW-WE-WORK1.png');
+    background-repeat: no-repeat;
+    background-size: 168px 150px;
+    background-position: center bottom;
+    float: left;
+}
+
+.footermain {
+    width: 1170px;
+    height: 320px;
+    background-color: #343130;
+}
+
+.footcol1 {
+    width: 225px;
+    height: 320px;
+    padding-left: 70px;
+    float: left;
+}
+
+.footcolheads {
+    width: 225px;
+    height: 40px;
+    letter-spacing: 1px;
+    color: #efeceb;
+    padding-top: 25px;
+}
+
+.footanchors {
+    width: 225px;
+}
+
+.footanchortable {
+    color: #efeceb;
+    list-style: none;
+    margin: 20px 0px 0px 10px;
+}
+
+.footcol2 {
+    width: 520px;
+    height: 100%;
+    float: left;
+    margin: 0px 0px 0px 30px;
+}
+
+.footcol3 {
+    width: 320px;
+    height: 100%;
+    float: left;
+}
+
+.contactcontent {
+    width: 305px;
+    height: 112px;
+    margin: 0px 0px 0px 15px;
+}
+
+.content {
+    width: 200px;
+    letter-spacing: 1px;
+    color: #efeceb;
+    margin-top: 20px;
+}
+
+.social-links {
+    width: 305px;
+    height: 38px;
+    margin: 15px 0px 0px 15px;
+}
+
+.socials {
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.blackbottom {
+    width: 1170px;
+    height: 35px;
+    background-color: #302d2c;
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.headrow {
+    width: 96%;
+    height: 30px;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    width: 300px;
+    height: 30px;
+    float: left;
+    color: #343130;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.home06 {
+    width: 210px;
+    height: 30px;
+    float: right;
+    font-size: 24px;
+    font-weight: bold
+}
+
+.aboutcontent {
+    width: 850px;
+
+    font-size: 18px;
+    color: black;
+}
+
+.acrows {
+    width: 100%;
+    margin: 22px 0px 0px;
+}
+
+.whyiip {
+    width: 100%;
+    height: 22px;
+    margin: 22px 0px 20px;
+    font-size: 18px;
+}
+
+.reasonsiip {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.coursecontent {
+    width: 790px;
+    height: 760px;
+    padding: 10px 30px 0px;
+}
+
+.courserow1 {
+    width: 800px;
+    height: 250px;
+}
+
+.courseshead {
+    width: 210px;
+    height: 140px;
+    background-color: #e6611c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot {
+    width: 208px;
+    height: 51.6px;
+    border: 1px solid #e6611c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    color: #e6611c;
+}
+
+.coursecircle {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courseshead2 {
+    width: 210px;
+    height: 140px;
+    background-color: #7bb1e0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot2 {
+    width: 208px;
+    height: 31.6px;
+    border: 1px solid #7bb1e0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: #7bb1e0;
+}
+
+.coursecircle2 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courseshead3 {
+    width: 210px;
+    height: 140px;
+    background-color: #5e5da4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot3 {
+    width: 208px;
+    height: 31.6px;
+    border: 1px solid #5e5da4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: #5e5da4;
+}
+
+.coursecircle3 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courserow2 {
+    width: 800px;
+    height: 250px;
+}
+
+.courseshead4 {
+    width: 210px;
+    height: 140px;
+    background-color: #308a7c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot4 {
+    width: 208px;
+    height: 51.6px;
+    border: 1px solid #308a7c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    color: #308a7c;
+}
+
+.coursecircle4 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courseshead5 {
+    width: 210px;
+    height: 140px;
+    background-color: #89c222;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot5 {
+    width: 208px;
+    height: 51.6px;
+    border: 1px solid #89c222;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    color: #89c222;
+}
+
+.coursecircle5 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courseshead6 {
+    width: 210px;
+    height: 140px;
+    background-color: #d60726;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot6 {
+    width: 208px;
+    height: 31.6px;
+    border: 1px solid #d60726;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: #d60726;
+}
+
+.coursecircle6 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courserow3 {
+    width: 800px;
+    height: 250px;
+}
+
+.courseshead7 {
+    width: 210px;
+    height: 140px;
+    background-color: #5e5da4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot7 {
+    width: 208px;
+    height: 31.6px;
+    border: 1px solid #5e5da4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: #5e5da4;
+}
+
+.coursecircle7 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courseshead8 {
+    width: 210px;
+    height: 140px;
+    background-color: #e6611c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot8 {
+    width: 208px;
+    height: 31.6px;
+    border: 1px solid #e6611c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: #e6611c;
+}
+
+.coursecircle8 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.courseshead9 {
+    width: 210px;
+    height: 140px;
+    background-color: darkgreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.coursesfoot9 {
+    width: 208px;
+    height: 31.6px;
+    border: 1px solid darkgreen;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: darkgreen;
+}
+
+.coursecircle9 {
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.gallerycontent {
+    width: 790px;
+    height: 760px;
+    padding: 10px 30px 0px;
+}
+
+.galleryrow1 {
+    width: 800px;
+    height: 250px;
+}
+
+.galleryhead {
+    width: 225px;
+    height: 170px;
+    margin: 0px 35px 0px 0px;
+}
+
+.galleryfoot {
+    width: 225px;
+    height: 21px;
+    font-size: 18px;
+    padding: 12px 0px;
+    text-align: center;
+    background-color: #343130;
+    border-radius: 0px 0px 5px 5px;
+    color: #ffff;
+    width: inherit;
+    margin: 4px 35px 50px 0px;
+}
+
+.contactuscontent {
+    width: 800px;
+    height: 760px;
+    padding: 0px 25px;
+}
+
+.contactrow1 {
+    width: 800px;
+    height: 250px;
+}
+
+.crcol1 {
+    width: 320px;
+    height: 250px;
+    float: left;
+}
+
+.contactphone {
+    width: 50px;
+    margin: auto;
+    color: black;
+}
+
+.contactphonecontent {
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0px 0px;
+}
+
+.crcol2 {
+    width: 270px;
+    height: 250px;
+    margin: 0px 0px 0px 100px;
+    float: right;
+}
+
+.contactadresspin {
+    width: 70px;
+    height: 85px;
+    text-align: right;
+    margin: auto;
+}
+
+.contactapcontent {
+    width: 270px;
+    height: 60px;
+    margin: 10px 0px 0px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.enquirycontent {
+    width: 850px;
+    height: 619px;
+    margin-left: 20px;
+}
+
+.formrow1 {
+    width: 500px;
+    height: 16px;
+    margin-top: 30px;
+}
+
+.formheading {
+    width: 100px;
+    height: 100%;
+    float: left;
+    font-weight: bold;
+}
+
+.formrow2 {
+    width: 500px;
+    height: 34px;
+    margin-top: 30px;
+}
+
+.formrow3 {
+    width: 500px;
+    height: 104px;
+    margin-top: 30px;
+}
+
+button {
+    width: 75px;
+    height: 37px;
+    background-color: #09F;
+    margin-top: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
